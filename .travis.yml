@@ -17,6 +17,6 @@ after_success:
   # Log in to Docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   - docker push ropenflash/multi-client
-  - docker push ropenflash/mutli-nginx
+  - docker push ropenflash/multi-nginx
   - docker push ropenflash/multi-server
   - docker push ropenflash/multi-worker
